@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+}
+
+
+.container {
+    width: 82%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+header .header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+header .header_container .left_div h1 {
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header .header_container .right_div button {
+    color: #0D1321;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+
+
+
+/* banner */
+
+header .banner {
+    background-image: url('../assets/Hero-bg.png');
+    width: 100%;
+    height: 630px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin: 10px 0;
+    object-fit: cover;
+}
+
+header .banner .banner_content .img_div{
+    max-width: 300px;
+}
+
+header .banner .banner_content .img_div img{
+    width: 100%;
+}
+
+
+header .banner .banner_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+    padding: 0px 30px;
+}
+
+
+header .banner .banner_content h1 {
+    color: #0D1321;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 68px;
+    /* 141.667% */
+}
+
+
+header .banner .banner_content p {
+    color: #0D1321;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+header .banner .banner_content button {
+    display: flex;
+    padding: 21px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #0D1321;
+    color: white;
+}
+
+
+/* tablet responsive */
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    /* header */
+    header .banner .banner_content {
+        gap: 20px;
+        padding: 0px 0px;
+    }
+
+    header .header_container .left_div h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    header .header_container .right_div button {
+
+        font-size: 16px;
+        padding: 5px;
+        border-radius: 3px;
+    }
+
+    
+
+    /* banner */
+
+    header .banner .banner_content h1 {
+        font-size: 30px;
+        line-height: 26px;
+
+    }
+
+    header .banner .banner_content {
+        padding-top: 20px;
+        gap: 12px;
+    }
+
+
+    header .banner .banner_content button {
+        border-radius: 6px;
+        color: white;
+    }
+
+
+}
+
+
+@media (max-width: 550px) {
+    .container {
+        width: 90%;
+    }
+
+    /* header */
+    header .banner .banner_content {
+        gap: 20px;
+        padding: 0px 0px;
+    }
+
+    header .header_container .left_div h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    header .header_container .right_div button {
+
+        font-size: 16px;
+        padding: 5px;
+        border-radius: 3px;
+    }
+
+    .hidden {
+        display: none;
+    }
+    /* banner */
+
+    header .banner .banner_content h1 {
+        font-size: 20px;
+        line-height: 26px;
+
+    }
+
+    header .banner .banner_content {
+        padding-top: 20px;
+        gap: 15px;
+    }
+
+
+    header .banner .banner_content button {
+        border-radius: 6px;
+        padding: 15px;
+        color: white;
+    }
+
+
+}
+
+
