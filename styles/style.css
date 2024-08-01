@@ -294,7 +294,7 @@ header .banner .banner_content button {
 
 #skill_section .skill_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2%;
 }
 
@@ -311,8 +311,8 @@ header .banner .banner_content button {
 
 #skill_section .skill_container .skill_card h5 {
     color: #0D1321;
-    font-size: 22px;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 700;
 
 }
 
@@ -326,12 +326,67 @@ header .banner .banner_content button {
 #skill_section .skill_container .skill_card span {
     color: #0D1321;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration-line: underline;
 }
 
 
+/* next_target_section */
 
+#next_target_section{
+    margin: 30px 0;
+}
+
+#next_target_section .next_target_container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+#next_target_section .single_target_card{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    border: 1px solid rgb(166, 160, 160);
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+
+
+#next_target_section .single_target_card .single_target_text_div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+#next_target_section .single_target_card .single_target_text_div h4{
+    color: #0D1321;
+font-size: 20px;
+font-weight: 800;
+line-height: 28px;
+}
+
+
+
+#next_target_section .single_target_card .single_target_text_div p{
+    color: #0D1321;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+
+
+#next_target_section .single_target_card .single_target_text_div span{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
 
 
 
@@ -425,6 +480,19 @@ header .banner .banner_content button {
     #card_section .single_card .single_card_left {
         width: 100%;
     }
+
+
+    /* skill_section */
+
+    #skill_section .skill_container {
+
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+
 
 
 }
@@ -524,7 +592,18 @@ header .banner .banner_content button {
 
 }
 
+/* next_target_section */
 
+#next_target_section .single_target_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+    border: 1px solid rgb(166, 160, 160);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
 
 
 
